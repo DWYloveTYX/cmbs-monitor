@@ -174,7 +174,7 @@ def load_history_data():
                     "value": val
                 })
         df = pd.DataFrame(data_rows)
-        df.to_csv(HISTORY_DATA_FILE, index=False)
+        
         return df
 
 # 初始化session_state
